@@ -22,10 +22,13 @@ Prefer descriptive class names over descendent selectors. Namespace selectors to
 
 ```sass
 // Good
-.task-item-label
-
+.task-item-label {
+  #...
+}
 // Bad
-.task-item .label
+li.task-item label {
+  #...
+}
 ```
 
 Mark Otto wrote a more detailed explanation [on his blog](http://markdotto.com/2012/03/02/stop-the-cascade/).
