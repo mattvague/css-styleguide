@@ -1,4 +1,6 @@
-# CSS lessons learned the hard way
+# CSS Style Guide
+
+A collection of CSS lessons learned the hard way.
 
 ## Basics
 
