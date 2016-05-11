@@ -53,14 +53,14 @@ Thanks to compilation and compression, we're able to organize styles into many s
 
 Complicated elements, such as a sidebar, might require hundreds of lines to style. In these cases, it's often appropriate to separate the related styles into multiple files in a subdirectory, such as `sidebar/`.
 
-### Style Block Orgainization
+### Style Block Organization & Ordering
 
 In order to keep application styles easy for anyone to jump into and work with it's imporatant to keep style block organization consistent.
 
 There are no hard-and-fast rules here, but some tips are:
 
 - Include mixins at the top of style blocks instead of scattered throughout each style block to make a selector's inherited properties obvious
-- Pick an order for style properties and stick to it (alphabetical, by category, etc)
+- Group style properties by "Positioning", "Display & Box Model", "Font", "Aesethtics", "Flexbox", etc (roughly following https://github.com/necolas/idiomatic-css)
 - Place parent element styles (if any) at the top of a style block, followed by pseudo selectors and finally nested child selectors (with a space seperating them from parent styles)
 
 ## Maintainability
